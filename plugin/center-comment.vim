@@ -1,5 +1,5 @@
 " center-comment.vim - Center Comment
-" Author:       Jonathan baird
+" Author:       Jonathan Baird <jtbairsr@me.com>
 " Version:      1.0
 
 " -------------------------------------------------------------------------------------------------------------------- "

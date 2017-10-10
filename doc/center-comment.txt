@@ -1,0 +1,76 @@
+*center-comment.txt*                    Plugin for formating comments to center
+
+Author:  Jonathan Baird <jtbairdsr@me.com>
+License: Same terms as Vim itself (see |license|)
+
+This plugin is only available if 'compatible' is not set.
+
+INTRODUCTION                                                   *center-comment*
+
+This plugin is a tool that allows formatting of comments. Provided are
+mappings to allow for centering a comment surrounded by white space, '-', or
+'='. Each variation also includes a mapping to add a comment char at the end
+of the line.
+
+Mappings:
+	<Leader>fch   or   *<Plug>CenterHeaderComment*
+	<Leader>fch-  or   *<Plug>CenterHeaderCommentDash*
+	<Leader>fch*  or   *<Plug>CenterHeaderCommentAstrisk*
+	<Leader>fch=  or   *<Plug>CenterHeaderCommentEq*
+	<Leader>fch_  or   *<Plug>CenterHeaderCommentUnderscore*
+	<Leader>fch+  or   *<Plug>CenterHeaderCommentPlus*
+	<Leader>fch#  or   *<Plug>CenterHeaderCommentHash*
+	<Leader>fch@  or   *<Plug>CenterHeaderCommentAt*
+	<Leader>fch!  or   *<Plug>CenterHeaderCommentBang*
+	<Leader>fch$  or   *<Plug>CenterHeaderCommentDollar*
+	<Leader>fch%  or   *<Plug>CenterHeaderCommentMod*
+	<Leader>fch^  or   *<Plug>CenterHeaderCommentCaret*
+	<Leader>fch&  or   *<Plug>CenterHeaderCommentAnd*
+	<Leader>fch?  or   *<Plug>CenterHeaderCommentQuestion*
+	<Leader>fch<  or   *<Plug>CenterHeaderCommentLess*
+	<Leader>fch>  or   *<Plug>CenterHeaderCommentGreater*
+	<Leader>fch.  or   *<Plug>CenterHeaderCommentDot*
+	<Leader>fch,  or   *<Plug>CenterHeaderCommentComma*
+	<Leader>fch`  or   *<Plug>CenterHeaderCommentTick*
+	<Leader>fch~  or   *<Plug>CenterHeaderCommentTilde*
+	<Leader>fch"  or   *<Plug>CenterHeaderCommentQuote*
+	<Leader>fch'  or   *<Plug>CenterHeaderCommentApost*
+		Center the current comment (padded with third char or <space>) and
+		bookend it in comment chars.
+
+	<Leader>fc   or   *<Plug>CenterComment*
+	<Leader>fc   or   *<Plug>CenterComment*
+	<Leader>fc-  or   *<Plug>CenterCommentDash*
+	<Leader>fc*  or   *<Plug>CenterCommentAstrisk*
+	<Leader>fc=  or   *<Plug>CenterCommentEq*
+	<Leader>fc_  or   *<Plug>CenterCommentUnderscore*
+	<Leader>fc+  or   *<Plug>CenterCommentPlus*
+	<Leader>fc#  or   *<Plug>CenterCommentHash*
+	<Leader>fc@  or   *<Plug>CenterCommentAt*
+	<Leader>fc!  or   *<Plug>CenterCommentBang*
+	<Leader>fc$  or   *<Plug>CenterCommentDollar*
+	<Leader>fc%  or   *<Plug>CenterCommentMod*
+	<Leader>fc^  or   *<Plug>CenterCommentCaret*
+	<Leader>fc&  or   *<Plug>CenterCommentAnd*
+	<Leader>fc?  or   *<Plug>CenterCommentQuestion*
+	<Leader>fc<  or   *<Plug>CenterCommentLess*
+	<Leader>fc>  or   *<Plug>CenterCommentGreater*
+	<Leader>fc.  or   *<Plug>CenterCommentDot*
+	<Leader>fc,  or   *<Plug>CenterCommentComma*
+	<Leader>fc`  or   <P*lug>CenterCommentTick*
+	<Leader>fc~  or   *<Plug>CenterCommentTilde*
+	<Leader>fc"  or   *<Plug>CenterCommentQuote*
+	<Leader>fc'  or   *<Plug>CenterCommentApost*
+		Center the current comment (padded with third char or <space>).
+
+Commands:
+	:CenterHeaderComment {paddingchar}
+		center a comment padded with {paddingchar} or <space> and bookend it
+		in comment chars.
+	:CenterComment {paddingchar}
+		center a comment padded with {paddingchar} or <space>.
+
+                                                      *center-comment-settings*
+This plugin doesn't have any settings.
+
+vim:tw=78:ts=4:ft=help:norl:
